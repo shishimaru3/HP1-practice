@@ -28,10 +28,10 @@
 }
 
 .top-bg {
-  position: absolute;
+  /* position: absolute; */
   background: #ff6a0080;
   height: 70vh;
   width: 55%;
-  bottom: -5%;
+  margin-top: -30%;
   z-index: -1;
 }
