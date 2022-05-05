@@ -1,0 +1,224 @@
+/* --------------------------------------------------
+top
+------------------------------------------------------*/
+
+.top {
+  background-image: url(../img/top-img.png);
+  background-size: cover;
+  /* height: 80vh; */
+}
+
+.top-title {
+  font-size: 3.2rem;
+  color: white;
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 20% 0 15% 0;
+}
+
+/* ---------------------------------------------------
+news
+-------------------------------------------------------*/
+.news-inner {
+  width: 50%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.news-line {
+  display: flex;
+  padding: 1% 0;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: -5%;
+}
+
+.news-line p {
+  border-right: 1px solid gray;
+  padding: 0 2%;
+  margin-right: 2%;
+}
+
+.news-line a {
+  padding: 0 2%;
+}
+
+.news-line a:hover {
+  color: orange;
+}
+
+.news-line a.button {
+  border: 1px solid orange;
+  padding: 1%;
+}
+
+.news-line a.button:hover {
+  background-color: orange;
+  color: white;
+}
+
+/* --------------------------------------------------
+about
+-----------------------------------------------------*/
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3% 0;
+}
+
+.about-wrapper-1 {
+  position: relative;
+  display: flex;
+}
+
+.about-text {
+  width: 45%;
+  margin-left: 5%;
+}
+
+.about-text h3 {
+  font-size:1.8rem;
+  padding: 5% 0;
+}
+
+.about-text p {
+  letter-spacing: 1px;
+  line-height: 1.8;
+  padding: 5% 0;
+}
+
+.about-img {
+  width: 45%;
+}
+
+.about-img img {
+  width:100%;
+  margin-right: 5%;
+}
+
+.about-bg {
+  background: #ff6b0020;
+  height: 35vh;
+  width: 70%;
+  margin-top: -12%;
+}
+
+.about-wrapper-2 {
+  position: relative;
+  display: flex;
+  flex-flow: row-reverse;
+  margin-top: 7%;
+}
+
+.about-bg-2 {
+  background: #ff6b0020;
+  height: 35vh;
+  width: 70%;
+  margin-top: -12%;
+  margin-left: 30%;
+}
+
+/* ----------------------------------------------------
+business
+--------------------------------------------------------*/
+.service-wrapper {
+  background: #ff6b0020;
+  text-align: center;
+}
+
+.service-item-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-item {
+  width: 18%;
+  background: white;
+  padding: 2%;
+  margin: 5% 0;
+  text-align: center;
+}
+
+.service-item img {
+  width: 100%;
+}
+
+.service-item h4 {
+  padding: 5% 0;
+}
+
+.service-item p {
+  font-size: 0.9rem;
+  line-height: 1.2;
+  padding: 5% 0;
+}
+
+.service-wrapper a {
+  display: inline-block;
+  text-align: center;
+  background: #ff8200;
+  width: 15%;
+  padding: 1% 0 ;
+  margin-bottom: 5%;
+}
+
+.service-wrapper a:hover {
+  opacity: 0.7;
+}
+
+
+/* -----------------------------------------------------
+recruit
+--------------------------------------------------------*/
+.recruit-wrapper {
+  display: flex;
+}
+
+.recruit-text {
+  width: 45%;
+  padding-left: 10%;
+}
+
+.recruit-text h3 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding: 10% 0;
+}
+
+.recruit-text p {
+  letter-spacing: 1px;
+  line-height: 1.8;
+  margin-bottom: 10%;
+}
+
+.recruit-text a {
+  display: block;
+  text-align: center;
+  background: #ff8200;
+  width: 30%;
+  margin: 0 auto;
+  padding: 2% 0 ;
+}
+
+.recruit-text a:hover {
+  opacity: 0.7;
+}
+
+.recruit-img {
+  width: 35%;
+  padding-right: 10%;
+}
+
+.recruit-img img {
+  width: 100%;
+}
+
+.recruit-bg {
+  background: #ff6b0020;
+  height: 50vh;
+  width: 70%;
+  margin-top: -18%;
+}
