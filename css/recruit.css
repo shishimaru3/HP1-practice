@@ -1,3 +1,69 @@
+.recruit {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.recruit-text {
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.recruit-text h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
+/* --------------------------------------
+voice
+---------------------------------------- */
+.voice-inner {
+  border: 1px solid gray;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.voice h2 {
+  font-size: 2rem;
+  text-align: center;
+  background: white;
+  width: 30%;
+  margin: -2% auto;
+  padding: 1% 0;
+}
+
+.voice-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+.voice-item {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 3% auto;
+  background: #ff6a0020;
+}
+
+.voice-img {
+  width: 20%;
+}
+
+.voice-img img {
+  width: 100%;
+  background: white;
+  border-radius: 50%;
+  margin-left: -50%;
+}
+
+.voice-text {
+  padding: 2% 0;
+}
+
+
+
 .apply-menu {
   text-align: center;
 }
